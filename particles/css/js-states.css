@@ -1,0 +1,17 @@
+/* Header */
+
+.header-container .menu-burger.active .menu-part:first-child{
+    transform: translateY(3px) rotate(-45deg);
+}
+
+.header-container .menu-burger.active .menu-part:last-child{
+    transform: translateY(-3px) rotate(45deg);
+}
+
+.header-container .menu-burger.active .menu-part:nth-child(2){
+    opacity: 0;
+}
+
+.sidebar.active{
+    height: 100px;
+}
